@@ -11,10 +11,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:8000",
-    "https://space-folio-xi.vercel.app",
-    "https://proximacloud.ddns.net"
+    "https://proximacloud.in"
 ]
 
 app.add_middleware(
