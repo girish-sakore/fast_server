@@ -11,7 +11,8 @@ from pydantic import BaseModel
 app = FastAPI()
 
 origins = [
-    "https://proximacloud.in"
+    "https://proximacloud.in",
+    "https://www.proximacloud.in",
 ]
 
 app.add_middleware(
